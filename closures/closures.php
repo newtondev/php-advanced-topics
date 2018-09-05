@@ -6,7 +6,7 @@ $out = array_filter($array, function($item) {
 print_r($out);
 print_r($array);
 $filterfunc = function($item) {
-  return ($item % 2 == 1);
+    return ($item % 2 == 1);
 };
 $out = array_filter($array, $filterfunc);
 print_r($out);
