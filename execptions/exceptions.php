@@ -10,6 +10,9 @@ try {
     echo $e->getMessage();
     echo get_class($e);
     echo "\n";
+} finally {
+    echo "\n";
+    echo "final";
 }
 
 function processCC($numb = null, $zipCode = null) {    
